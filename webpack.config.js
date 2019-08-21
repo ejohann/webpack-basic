@@ -35,7 +35,7 @@ module.exports = {
                    loader: 'babel-loader',
                    options: {
                        presets: [ '@babel/env' ],
-                       plugins: [ 'transfom-class-properties' ]
+                       plugins: [ 'transform-class-properties' ]
                    }
                 }
             }
