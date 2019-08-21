@@ -42,6 +42,12 @@ module.exports = {
                        plugins: [ 'transform-class-properties' ]
                    }
                 }
+            },
+            {
+                test: /\.hbs$/,
+                use: [
+                   'handlebars-loader' 
+                ]
             }
         ]
     },
