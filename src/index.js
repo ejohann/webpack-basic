@@ -8,4 +8,4 @@ const helloWorldButton = new HelloWorldButton();
 heading.render();
 helloWorldButton.render();
 
-//addImage();
+addImage();
