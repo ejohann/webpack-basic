@@ -57,6 +57,11 @@ module.exports = {
 
             ]
         }),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            title: 'Hello World',
+            meta: {
+                decsription: 'Some description'
+            }
+        })
     ]
 };
