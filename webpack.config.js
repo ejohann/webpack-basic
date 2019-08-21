@@ -66,7 +66,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Hello World',
             template: 'src/index.hbs',
-            decsription: 'Some description'
+            description: 'Some description'
         })
     ]
 };
