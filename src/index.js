@@ -8,7 +8,7 @@ const helloWorldButton = new HelloWorldButton();
 heading.render();
 helloWorldButton.render();
 
-addImage();
+//addImage();
 
 if(process.env.NODE_ENV === 'production'){
     console.log('production mode');
